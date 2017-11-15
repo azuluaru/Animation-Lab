@@ -24,7 +24,7 @@ h3 {
 
 }
 h2 {
-  font-size: 3em;
+  font-size: 2.5em;
 
 }
 
@@ -72,7 +72,7 @@ span.yellow {
 }
 
 .switchp {
-  margin-left: 800px;
+  margin-left: 925px;
   background-image: url(img/feather.png);
   width: 250px;
   height: 55px;
@@ -96,63 +96,74 @@ span.yellow {
     height: 208px;
     background-image: url("img/bird4.png");
 
-    -webkit-animation: play 1.2s steps(8) infinite;
-            animation: play 1.2s steps(8) infinite;
+    -webkit-animation: play1 1.2s steps(8) infinite;
+            animation: play1 1.2s steps(8) infinite;
 }
-@keyframes play {
-   from { background-position:    10px; }
+@keyframes play1 {
+   from { background-position:    0px; }
      to { background-position: -2000px; }
 }
-
+@-webkit-keyframes play1 {
+  from { background-position:    0px; }
+    to { background-position: -2000px; }
+}
 
 .soul {
   float: left;
   margin-left: 100px;
-    width: 248px;
-    height: 250px;
-    background-image: url("img/soul.png");
+    width: 500px;
+    height: 500px;
+    background-image: url("img/soulbig.png");
 
-    -webkit-animation: play 1.2s steps(8) infinite;
-            animation: play 1.2s steps(8) infinite;
+    -webkit-animation: play2 1.2s steps(8) infinite;
+            animation: play2 1.2s steps(8) infinite;
 }
-@keyframes play {
+@keyframes play2 {
    from { background-position:    0px; }
-     to { background-position: -2000px; }
+     to { background-position: -4000px; }
 }
 
-@-webkit-keyframes play {
+@-webkit-keyframes play2 {
   from { background-position:    0px; }
-    to { background-position: -2000px; }
+    to { background-position: -4000px; }
 }
 
 .soulwind {
   float: left;
   margin-left: 100px;
-    width: 250px;
-    height: 250px;
-    background-image: url("img/soulwind.png");
+    width: 500px;
+    height: 500px;
+    background-image: url("img/soulwindbig.png");
 
-    -webkit-animation: play .8s steps(8) infinite;
-            animation: play .8s steps(8) infinite;
+    -webkit-animation: play3 .8s steps(8) infinite;
+            animation: play3 .8s steps(8) infinite;
 }
-@keyframes play {
+@keyframes play3 {
    from { background-position:    0px; }
-     to { background-position: -2000px; }
+     to { background-position: -4000px; }
+}
+@-webkit-keyframes play3 {
+  from { background-position:    0px; }
+    to { background-position: -4000px; }
 }
 
 .soulglo {
   float: left;
   margin-left: 100px;
-    width: 249px;
-    height: 250px;
+    width: 500px;
+    height: 500px;
     background-image: url("img/soulgloflat.png");
 
-    -webkit-animation: play 1.2s steps(8) infinite;
-            animation: play 1.2s steps(8) infinite;
+    -webkit-animation: play4 1.2s steps(8) infinite;
+            animation: play4 1.2s steps(8) infinite;
 }
-@keyframes play {
+@keyframes play4 {
    from { background-position:    0px; }
-     to { background-position: -2000px; }
+     to { background-position: -4000px; }
+}
+@-webkit-keyframes play4 {
+  from { background-position:    0px; }
+    to { background-position: -4000px; }
 }
 
 /*sway*/
